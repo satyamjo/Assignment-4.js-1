@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA</title>
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- font Awesoe link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css file local -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <div class="heading">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center my-5">
+                    <h1>Calculate Marks in to CGPA</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="subjects">
+        <div class="container px-5 py-5">
+            <div class="row text-center">
+                <div class="col mx-1">
+                    <h1 class="sub-name">
+                        Mathematics
+                    </h1>
+                    <p class="marks">
+                        Enter your Marks here
+                    </p>
+                    <input type="number" name="marks1" id="marks1" class="input">
+                </div>
+                <div class="col mx-1">
+                    <h1 class="sub-name">
+                        Science
+                    </h1>
+                    <p class="marks">
+                        Enter your Marks here
+                    </p>
+                    <input type="number" name="marks2" id="marks2" class="input">
+                </div>
+                <div class="col mx-1">
+                    <h1 class="sub-name">
+                        History
+                    </h1>
+                    <p class="marks">
+                        Enter your Marks here
+                    </p>
+                    <input type="number" name="marks3" id="marks3" class="input">
+                </div>
+                <div class="col mx-1">
+                    <h1 class="sub-name">
+                        English
+                    </h1>
+                    <p class="marks">
+                        Enter your Marks here
+                    </p>
+                    <input type="number" name="marks4" id="marks4" class="input">
+                </div>
+                <div class="col mx-1">
+                    <h1 class="sub-name pt-5">
+                        Physics
+                    </h1>
+                    <p class="marks">
+                        Enter your Marks here
+                    </p>
+                    <input type="number" name="marks5" id="marks5" class="input">
+                </div>
+            </div>
+
+            <div class="answer">
+                <div class="container">
+                    <div class="row text-center pt-5">
+                        <div class="col-md-6">
+                            <button class="btn btn-primary btn-lg" onclick="myFunction()">Click to get
+                                CGPA</button>
+                        </div>
+                        <div class="col-md-6">
+                            <p id="demo" class=" mt-3 para"></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- js local file -->
+    <script src="./js/index.js"></script>
+
+    <!-- bootstrap js script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>

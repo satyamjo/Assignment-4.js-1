@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading h1 {
+    color: darkslategrey;
+    letter-spacing: .4rem;
+    font-weight: 600;
+}
+
+p {
+    color: floralwhite;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.para {
+    font-size: 30px;
+    color: rgb(105, 255, 150);
+}
